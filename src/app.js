@@ -1,3 +1,5 @@
 const server = require('./server');
+require('dotenv/config');
 
-server.listen(3333);
+const PORT = process.env.PORT;
+server.listen(PORT);
