@@ -1,0 +1,23 @@
+{
+  "name": "backend-americanas",
+  "version": "1.0.0",
+  "description": "app desenvolvido para melhorar experiencia do usuario nas compras me lojas fisicas da Americanas.",
+  "main": "server.js",
+  "repository": "https://github.com/marcelo96582887/hackathon-americanas-backend",
+  "author": "Equipe Hackathon - Desafio Americanas",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "intl": "^1.2.5",
+    "knex": "^0.21.1",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.3",
+    "sqlite3": "^4.2.0"
+  }
+}
